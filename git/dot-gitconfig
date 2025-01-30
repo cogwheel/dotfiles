@@ -1,7 +1,14 @@
-[alias]
-	aup = add -u --patch
+[user]
+	name = Matthew Orlando
+	email = maorlando@gmail.com
+	signingKey = FAE8DF935EE7763D
+[commit]
+	gpgsign = true
 [init]
 	defaultBranch = main
-[user]
-	email = maorlando@gmail.com
-	name = Matthew Orlando
+[alias]
+	aup = add -u --patch
+[core]
+	excludesfile = /home/vashfish/.gitignore
+[color]
+	ui = auto
