@@ -1,0 +1,10 @@
+window-theme = system
+window-decoration = false
+
+gtk-adwaita = true
+
+# TODO: figure out why it's not detecting system theme
+theme = dark:iTerm2 Tango Dark,light:iTerm2 Tango Light
+#theme = iTerm2 Tango Dark
+
+background-opacity = 0.90
