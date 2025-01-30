@@ -9,7 +9,8 @@
     "modules-left": [
         //"sway/workspaces",
         "hyprland/workspaces",
-        "sway/mode",
+        //"sway/mode",
+        "hyprland/submap",
         "sway/scratchpad",
         "custom/media"
     ],
@@ -61,7 +62,7 @@
             "unlocked": ""
         }
     },
-    "sway/mode": {
+    "hyprland/submap": {
         "format": "<span style=\"italic\">{}</span>"
     },
     "sway/scratchpad": {
