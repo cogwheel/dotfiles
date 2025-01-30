@@ -1,0 +1,7 @@
+[alias]
+	aup = add -u --patch
+[init]
+	defaultBranch = main
+[user]
+	email = maorlando@gmail.com
+	name = Matthew Orlando
