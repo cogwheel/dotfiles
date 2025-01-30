@@ -104,6 +104,11 @@ button:hover {
     margin: 0 4px;
 }
 
+.modules-right,
+.modules-left {
+  margin-bottom: 3px;
+}
+
 /* If workspaces is the leftmost module, omit left margin */
 .modules-left > widget:first-child > #workspaces {
     margin-left: 0;
