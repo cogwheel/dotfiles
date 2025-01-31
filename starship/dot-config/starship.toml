@@ -12,14 +12,14 @@ $status\
 $os\
 $container\
 $shell\
-$directory\
-$character\
 $username\
 $hostname\
 $localip\
 $shlvl\
 $singularity\
-$kubernetes"""
+$kubernetes\
+$directory\
+$character"""
 
 right_format = """
 $vcsh\
@@ -149,6 +149,14 @@ Ubuntu = "[ ](fg:#77216f)"  # https://design.ubuntu.com/brand/colour-palette
 Unknown = "[ ](fg:#6a5f7f)"  # Asked chatgpt: what's a good color to represent "unknown" in a neutral (non-negative) way on a dark background?
 Void = "[ ](fg:#478061)"  # view-source:https://upload.wikimedia.org/wikipedia/commons/0/02/Void_Linux_logo.svg
 Windows = "[󰍲 ](fg:#0078d4)"  # https://colorswall.com/palette/181955
+
+[username]
+format = '[$user]($style)@'
+
+[hostname]
+ssh_symbol = '🔒'
+format = '[$ssh_symbol$hostname]($style):'
+
 
 [directory]
 truncate_to_repo = true
