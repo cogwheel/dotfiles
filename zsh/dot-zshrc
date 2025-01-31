@@ -20,6 +20,9 @@ compinit
 alias ls="ls --color=auto"
 alias grep="grep --color=auto"
 
+# Help avoid unexpected incidents
+alias stow="stow --dotfiles"
+
 num_procs=$(nproc)
 
 export EDITOR=nvim
