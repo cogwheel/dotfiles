@@ -154,7 +154,7 @@ Windows = "[󰍲 ](fg:#0078d4)"  # https://colorswall.com/palette/181955
 truncate_to_repo = true
 truncation_length = 3
 format = "[$path]($style)"
-truncation_symbol = "…/"
+truncation_symbol = "… /"
 
 ### Right side
 
