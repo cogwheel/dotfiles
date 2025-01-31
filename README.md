@@ -14,7 +14,7 @@ In old versions the `dot-foo` -> `.foo` renaming will fail.
 
 ## Tips
 
-- If you don't use `stow` for
+- If you don't use `stow` for anything else, put `alias stow='/path/to/stow --dotfiles'` in your shell rc file.
 
 ## TODO
 
