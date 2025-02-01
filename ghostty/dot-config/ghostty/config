@@ -8,3 +8,6 @@ theme = dark:iTerm2 Tango Dark,light:iTerm2 Tango Light
 #theme = iTerm2 Tango Dark
 
 background-opacity = 0.90
+
+font-family = Cogslab Nerd Font
+font-size = 13.0
