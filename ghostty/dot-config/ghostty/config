@@ -1,3 +1,6 @@
+# Load local overrides (e.g. window-decoration = true on ubuntu)
+config-file = ?local/config
+
 window-theme = system
 window-decoration = false
 

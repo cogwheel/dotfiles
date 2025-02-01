@@ -20,4 +20,4 @@ In old versions the `dot-foo` -> `.foo` renaming will fail.
 
 ### Starship
 
-- [ ] Bug: environment modules (ssh, etc) appear after `$character`
+- [X] Bug: environment modules (ssh, etc) appear after `$character`
