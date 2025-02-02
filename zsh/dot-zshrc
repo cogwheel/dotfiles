@@ -28,7 +28,7 @@ num_procs=$(nproc)
 export EDITOR=nvim
 export VISUAL=nvim
 export CMAKE_BUILD_PARALLEL_LEVEL=$num_procs
-export MAKEOPTS=-j$num_procs
+export MAKEFLAGS=-j$num_procs
 export GPG_TTY=$TTY
 
 ZLE_RPROMPT_INDENT=0
