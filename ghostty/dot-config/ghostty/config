@@ -6,11 +6,15 @@ window-decoration = false
 
 gtk-adwaita = true
 
-# TODO: figure out why it's not detecting system theme
 theme = dark:iTerm2 Tango Dark,light:iTerm2 Tango Light
-#theme = iTerm2 Tango Dark
 
 background-opacity = 0.90
 
+# To override, put the following in local/config
+#
+# font-family = ""
+# font-family = WhateverYouWant
+#
 font-family = Cogslab2 Nerd Font
+
 font-size = 13.0
