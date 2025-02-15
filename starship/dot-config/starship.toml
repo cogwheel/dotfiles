@@ -291,7 +291,7 @@ format = ' [$symbol$stack]($style)'
 format = ' [$symbol]($style)'
 
 [python]
-format = ' [$symbol]($style)'
+format = ' [$symbol]($style)(\($virtualenv\))'
 symbol = ' '
 
 [quarto]
